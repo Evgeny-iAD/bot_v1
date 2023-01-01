@@ -16,7 +16,6 @@ async def msg(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         'cm': 10 ** -2,
         'dm': 10 ** -1,
         'm': 1,
-        'km': 10 ** 3
     }
 
     if text in comands:
