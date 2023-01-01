@@ -15,7 +15,6 @@ async def msg(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         '*время*': com.dat(),
         'cm': 10 ** -2,
         'dm': 10 ** -1,
-        'm': 1,
     }
 
     if text in comands:
